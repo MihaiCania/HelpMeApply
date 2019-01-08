@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "540420644385",
+    "firebase_url": "https://helpmeapply-1ff14.firebaseio.com",
+    "project_id": "helpmeapply-1ff14",
+    "storage_bucket": "helpmeapply-1ff14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540420644385:android:3172b21ecdaa2763",
+        "android_client_info": {
+          "package_name": "msa.helpmeapply"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540420644385-9595e3hn1b1f2ja74arq5bsjinuu3ubn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMH_WVa5PE_q79ZF7sstZkG1XdtIH-FiY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
