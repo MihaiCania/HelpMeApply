@@ -1,27 +1,35 @@
 {
   "project_info": {
-    "project_number": "1081430092660",
-    "firebase_url": "https://gcalproject-206307.firebaseio.com",
-    "project_id": "gcalproject-206307",
-    "storage_bucket": "gcalproject-206307.appspot.com"
+    "project_number": "1076579198460",
+    "firebase_url": "https://helpmeapply-66dc5.firebaseio.com",
+    "project_id": "helpmeapply-66dc5",
+    "storage_bucket": "helpmeapply-66dc5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1081430092660:android:3172b21ecdaa2763",
+        "mobilesdk_app_id": "1:1076579198460:android:3172b21ecdaa2763",
         "android_client_info": {
           "package_name": "msa.helpmeapply"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1081430092660-50vk4fu32bs0h2v15p7bleevanv2rotq.apps.googleusercontent.com",
+          "client_id": "1076579198460-aodpk4mvfdh9smi1v8tdqbrgfhk91a0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "msa.helpmeapply",
+            "certificate_hash": "9ba9c3b2fe23820b8566c59b8ca815e573453b30"
+          }
+        },
+        {
+          "client_id": "1076579198460-jrhdmdi07dil1gh0bh7fb27svuj51ugn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCUBS0PWvMYkLxTyvxsfVtfF7uWYV57Fps"
+          "current_key": "AIzaSyCUurc_e91aTLlTeHs9cMfZs68du0gcb-k"
         }
       ],
       "services": {
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076579198460-jrhdmdi07dil1gh0bh7fb27svuj51ugn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
