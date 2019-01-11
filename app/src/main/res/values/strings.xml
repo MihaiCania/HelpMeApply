@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HelpMeApply</string>
+    <string name="companies">Companies</string>
+    <string name="aboutme">About Me</string>
 </resources>
