@@ -199,6 +199,12 @@ public class MainActivity extends AppCompatActivity {
             return false;
         }
 
+        if(id == R.id.update) {
+            Intent intent = new Intent(MainActivity.this, UpdateAboutMe.class);
+            startActivity(intent);
+            return false;
+        }
+
         return super.onOptionsItemSelected(item);
     }
 

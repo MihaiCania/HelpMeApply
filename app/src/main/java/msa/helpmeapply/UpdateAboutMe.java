@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class AboutMeActivity extends AppCompatActivity {
+public class UpdateAboutMe extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_me);
+        setContentView(R.layout.activity_update_about_me);
     }
 
     @Override
@@ -25,25 +25,23 @@ public class AboutMeActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if(id == R.id.aboutme) {
-            Intent intent = new Intent(AboutMeActivity.this, AboutMeActivity.class);
+            Intent intent = new Intent(UpdateAboutMe.this, AboutMeActivity.class);
             startActivity(intent);
             return false;
         }
 
         if(id == R.id.companies) {
-            Intent intent = new Intent(AboutMeActivity.this, MainActivity.class);
+            Intent intent = new Intent(UpdateAboutMe.this, MainActivity.class);
             startActivity(intent);
             return false;
         }
 
         if(id == R.id.update) {
-            Intent intent = new Intent(AboutMeActivity.this, UpdateAboutMe.class);
+            Intent intent = new Intent(UpdateAboutMe.this, UpdateAboutMe.class);
             startActivity(intent);
             return false;
         }
 
         return super.onOptionsItemSelected(item);
     }
-
-
 }

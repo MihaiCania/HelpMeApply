@@ -10,4 +10,8 @@
         android:title="@string/aboutme"
         app:showAsAction="never" />
 
+    <item android:id="@+id/update"
+        android:title="@string/update"
+        app:showAsAction="never" />
+
 </menu>
