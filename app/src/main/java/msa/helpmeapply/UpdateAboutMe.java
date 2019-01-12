@@ -47,9 +47,9 @@ public class UpdateAboutMe extends AppCompatActivity {
         edtExperience = (EditText) findViewById(R.id.edtExperience);
         btnAdd = (Button) findViewById(R.id.btnAdd);
 
-        sqLiteHelper = new SQLiteHelper(this, "AboutDB.sqlite", null, 1);
+        sqLiteHelper = new SQLiteHelper(this, "TEST.sqlite", null, 1);
 
-        sqLiteHelper.queryData("CREATE TABLE IF NOT EXISTS ABOUT (Id INTEGER PRIMARY KEY AUTOINCREMENT, first VARCHAR, last VARCHAR, email VARCHAR, phone VARCHAR, age VARCHAR, university VARCHAR, domain VARCHAR, experience VARCHAR)");
+        sqLiteHelper.queryData("CREATE TABLE IF NOT EXISTS TEST (Id INTEGER PRIMARY KEY AUTOINCREMENT, first TEXT, last TEXT, email TEXT, phone TEXT, age TEXT, university TEXT, domain TEXT, experience TEXT)");
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,7 +66,7 @@ public class UpdateAboutMe extends AppCompatActivity {
                             edtExperience.getText().toString().trim()
                     );
                     Toast.makeText(getApplicationContext(), "Updated succesfully!", Toast.LENGTH_SHORT).show();
-                    
+
                 }
                 catch(Exception e) {
                     e.printStackTrace();

@@ -19,7 +19,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 
     public void insertData(String firstName, String lastName, String email, String phone, String age, String university, String domain, String experience) {
         SQLiteDatabase database = getWritableDatabase();
-        String sql = "INSERT INTO ABOUT VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO TEST VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?)";
 
         SQLiteStatement statement = database.compileStatement(sql);
         statement.clearBindings();
