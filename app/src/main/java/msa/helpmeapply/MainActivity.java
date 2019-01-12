@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
         dbRef.child(listKeys.get(selectedPosition)).removeValue();
     }
 
-    public void findItems(View view) {
+    public void findItem(View view) {
 
         Query query;
 
