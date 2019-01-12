@@ -75,60 +75,8 @@ public class UpdateAboutMe extends AppCompatActivity {
             }
         });
 
-        //FOR CV UPLOAD
-        /*
-        btnChoose.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ActivityCompat.requestPermissions(UpdateAboutMe.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},REQUEST_CODE_STORAGE);
-            }
-        });
-        */
-
-
     }
 
-    //IMPLEMENT UPLOAD CV DIRECTLY TO EMAIL ACTIVITY!!!
-
-    /*
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-
-        if(requestCode == REQUEST_CODE_STORAGE) {
-            if(grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-                intent.setType("application/pdf");
-                intent.addCategory(Intent.CATEGORY_OPENABLE);
-
-                startActivityForResult(intent.createChooser(intent, "Select pdf file"), REQUEST_CODE_STORAGE);
-            } else {
-                Toast.makeText(getApplicationContext(), "You don't have permission to access file location!", Toast.LENGTH_SHORT).show();
-            }
-            return;
-        }
-
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-
-        if(requestCode == REQUEST_CODE_STORAGE && resultCode == RESULT_OK && data != null) {
-            Uri uri = data.getData();
-
-            try {
-                InputStream inputStream = getContentResolver().openInputStream(uri);
-
-                Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
-                imageView.setImageBitmap(bitmap);
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            }
-        }
-
-        super.onActivityResult(requestCode, resultCode, data);
-    }
-    */
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

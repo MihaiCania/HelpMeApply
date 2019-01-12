@@ -56,6 +56,7 @@ public class AboutMeActivity extends AppCompatActivity {
             universityDB.setText(university);
             domainDB.setText(domain);
             experienceDB.setText(experience);
+
         }
     }
 
