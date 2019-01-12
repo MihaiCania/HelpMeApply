@@ -24,12 +24,6 @@ public class AboutMeActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if(id == R.id.aboutme) {
-            Intent intent = new Intent(AboutMeActivity.this, AboutMeActivity.class);
-            startActivity(intent);
-            return false;
-        }
-
         if(id == R.id.companies) {
             Intent intent = new Intent(AboutMeActivity.this, MainActivity.class);
             startActivity(intent);
